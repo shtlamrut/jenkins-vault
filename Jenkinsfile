@@ -9,7 +9,7 @@ def secrets = [
 
 // optional configuration, if you do not provide this the next higher configuration
 // (e.g. folder or global) will be used
-def configuration = [vaultUrl: 'http://vault.default.svc.localhost:8200',
+def configuration = [vaultUrl: 'http://vault.default.svc.cluster.local:8200',
                      vaultCredentialId: 'jenkins-vault',
                       engineVersion: 2]
     
