@@ -15,7 +15,7 @@ def configuration = [vaultUrl: 'http://vault.default.svc.cluster.local:8200',
     
 
 pipeline {
-    agent none
+    agent any
     
     stages {
         
